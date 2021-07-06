@@ -52,12 +52,12 @@ export function Login({ toggleTheme }: LoginProps) {
               <a href="">Forgot Password?</a>
             </CheckBoxContainer>
 
-            <div>
+            <div className="buttonContent">
               <Button>Login</Button>
-              <Button>SingUp</Button>
+              <Button className="outlined">SingUp</Button>
             </div>
             <footer>
-              <span>Or login with</span>
+              <span className="or">Or login with:</span>
               <span>
                 <a href="">Facebook</a>
               </span>
